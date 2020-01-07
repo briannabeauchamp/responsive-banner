@@ -22,10 +22,6 @@ html {
   background-color: #efefef;
 }
 
-img {
-  max-height: 500px;
-}
-
 @media only screen and (min-width: 60em) {
 
   .gradient {
@@ -43,6 +39,11 @@ img {
 
   .move {
     text-align: right;
+  }
+
+  .size {
+    max-height: 500px;
+    overflow: hidden;
   }
 
 }
