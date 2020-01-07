@@ -12,6 +12,10 @@ html {
   color: #fff;
 }
 
+.move {
+  text-align: left;
+}
+
 .btn:hover {
   color: rgba(73, 85, 98, .9);
   border-color: #97a49b;
@@ -28,7 +32,17 @@ img {
     background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
     background-color: transparent;
     position: absolute;
-    top: 14.25em;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .btn {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .move {
+    text-align: right;
   }
 
 }
